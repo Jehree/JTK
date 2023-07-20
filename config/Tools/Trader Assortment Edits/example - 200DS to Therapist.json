@@ -1,0 +1,106 @@
+{
+    "Removals":{
+        
+        "therapist":{
+            "items_to_remove": ["5448ff904bdc2d6f028b456e"]
+        },
+        "prapor":{
+            "items_to_remove": [""]
+        },
+        "mechanic":{
+            "items_to_remove": [""]
+        },
+        "skier":{
+            "items_to_remove": [""]
+        },
+        "peacekeeper":{
+            "items_to_remove": [""]
+        },
+        "jaeger":{
+            "items_to_remove": [""]
+        },
+        "ragman":{
+            "items_to_remove": [""]
+        }    
+    },
+
+    "New_Barters_Simple":{
+
+        "9x19 PSO GZH Therapist":{
+            "trader": "therapist",
+            "trader_loyalty_level": 1,
+            "item_id": "58864a4f2459770fcc257101",
+            "currency": "roubles",
+            "price": 69,
+            "unlimited": true,
+            "stock_amount": 100
+        }
+    },
+
+    "New_Barters_Complex":{
+
+        "200DS Therapist": {
+            "trader": "therapist",
+            "trader_loyalty_level": 1,
+    
+            "assortment": {
+                "_id": "200DStherapist",
+                "_tpl": "624c2e8614da335f1e034d8c",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "FireMode": {
+                        "FireMode": "single"
+                    },
+                    "UnlimitedCount": true,
+                    "StackObjectsCount": 100
+                }
+            },
+    
+            "barter_scheme": [
+                {
+                    "count": 269,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                },
+                {
+                    "count": 2,
+                    "_tpl": "590c2d8786f774245b1f03f3"
+                }
+            ]
+            
+        },
+    
+        "200DS Therapist mag": {
+            "trader": "therapist",
+    
+            "assortment": {
+                "_id": "200DStherapistMAG",
+                "_tpl": "624c3074dbbd335e8e6becf3",
+                "parentId": "200DStherapist",
+                "slotId": "mod_magazine"
+            }
+        },
+    
+        "200DS Therapist fs": {
+            "trader": "therapist",
+    
+            "assortment": {
+                "_id": "200DStherapistFS",
+                "_tpl": "619f4d304c58466fe1228437",
+                "parentId": "200DStherapist",
+                "slotId": "mod_sight_front"
+            }
+        },
+    
+        "200DS Therapist grip": {
+            "trader": "therapist",
+    
+            "assortment": {
+                "_id": "200DStherapistGRIP",
+                "_tpl": "619f4bffd25cbd424731fb97",
+                "parentId": "200DStherapist",
+                "slotId": "mod_pistol_grip"
+            }
+        }
+    }
+}

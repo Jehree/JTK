@@ -1,0 +1,11 @@
+{
+    "trader_tweaks": false,
+    "equipment_slots_tweaks": false,
+    "case_tweaks": false,
+    "quest_reward_tweaks": false,
+
+    "remove_item_filters_by_parent_id": {
+        "enabled": false,
+        "parent_ids": [""]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "Note": "This file adds a salewa to Debut's rewards and removes all kedrs from Prapors quest rewards",
+
+    "Removals":{
+        "all_quests":{
+            "quest_name": "all_quests",
+            "items_to_remove": [""]
+        },
+        "remove kedr from Debut":{
+            "quest_name": "Debut",
+            "items_to_remove": ["57d14d2524597714373db789"]
+        }
+    },
+
+    "New_Rewards":{
+        "salewa to prapor debut":{
+            "trader": "prapor",
+            "quest_name": "Debut",
+            "item_id": "544fb45d4bdc2dee738b4568",
+            "amount": 1
+        }
+    }
+}

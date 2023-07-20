@@ -1,0 +1,63 @@
+{
+
+    "Unique Cell Filter instructions": "This feature allows you to set up a unique filter push or Overwrite for one or more specific cells.",
+
+    "example 1":"This case will have 4 1x1 cells, with the 2nd cell set to use the unique filter. Do this by entering a number in the Cell_To_Apply_Unique_Filter_To field.",
+    "note1": "if you're using this method DO NOT use brackets around the Cell_To_Apply_Unique_Filter_To number.",
+    "H_Cells": [1,1,1,1],
+    "V_Cells": [1,1,1,1],
+    "Cell_To_Apply_Unique_Filter_To": 2,
+    
+    "example 2":"This case will have the first and last cell set to use the unique filter. Use y to indicate the filter applies to that cell, and n to indicate that it does not.",
+    "note2": "using this method REQUIRES the brackets around the y's and n's.",
+    "H_Cells ": [1,1,1,1],
+    "V_Cells ": [1,1,1,1],
+    "Cell_To_Apply_Unique_Filter_To ": ["y", "n", "n", "y"],
+    
+    "I don't want to use a certain feature...": "Then delete the section :). All separated sections seen in the Example Container can be added/ deleted as you need them.",
+
+    "Filter Overwrite-1": "If this is FALSE, the items entered into the filter will be added to the default filter of the case. If it is TRUE, it will Overwrite the case's filter entirely.",
+    "Filter Overwrite-2": "If you set this to true, and leave the Indluded_Filter blank, ALL items will be allowed in the case.",
+
+    "N1": "Use these text fields",
+    "N2": "to make some notes on",
+    "N3": "what this file is for.",
+    
+    "Cases": {
+        "Example Container": {
+            "id": "Item ID",
+
+            "H_Cells": [1,3,2,1],
+            "V_Cells": [1,3,2,1],
+
+            "External_Size_H": 6,
+            "External_Size_V": 8,
+
+            "Filter_Overwrite": false,
+            "Included_Filter": ["Item ID's of items you want to allow"],
+            "Excluded_Filter": ["Item ID's of items you want to disallow"],
+
+            "Cell_To_Apply_Unique_Filter_To": 0,
+            "Unique_Cell_Filter_Overwrite": false,
+            "Unique_Included_Filter": ["Item ID's of items you want to allow"],
+            "Unique_Excluded_Filter": ["Item ID's of items you want to disallow"]
+        },
+        "Alpha Container": {
+            "id": "544a11ac4bdc2d470e8b456a",
+
+            "H_Cells": [1,2,1],
+            "V_Cells": [1,2,1],
+
+            "Filter_Overwrite": true,
+            "Included_Filter": [""],
+            "Excluded_Filter": [
+                "544a11ac4bdc2d470e8b456a",
+                "5857a8b324597729ab0a0e7d",
+                "59db794186f77448bc595262",
+                "5732ee6a24597719ae0c0281",
+                "5857a8bc2459772bad15db29",
+                "5c093ca986f7740a1867ab12"
+            ]
+        }
+    }
+}

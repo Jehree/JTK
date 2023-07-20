@@ -1,0 +1,132 @@
+{
+    "EquipmentSlots": {
+
+        "FirstPrimaryWeapon": {
+            "Name": "FirstPrimaryWeapon",
+            "Filter_Overwrite": false,
+            "Included_Filter": ["5422acb9af1c889c16000029", "5447e1d04bdc2dff2f8b4567"],
+            "Excluded_Filter": [""]
+        },
+        "SecondPrimaryWeapon": {
+            "Name": "SecondPrimaryWeapon",
+            "Filter_Overwrite": false,
+            "Included_Filter": ["5422acb9af1c889c16000029", "5447e1d04bdc2dff2f8b4567", "6034d103ca006d2dca39b3f0", "6038d614d10cbf667352dd44"],
+            "Excluded_Filter": [""]
+        },
+        "Holster": {
+            "Name": "Holster",
+            "Filter_Overwrite": false,
+            "Included_Filter": ["56e33680d2720be2748b4576", "5447b5e04bdc2d62278b4567", "5447e1d04bdc2dff2f8b4567"],
+            "Excluded_Filter": [
+            "5fc3e272f8b6a877a729eac5",
+            "59984ab886f7743e98271174",
+            "5ea03f7400685063ec28bfa8",
+            "59f9cabd86f7743a10721f46",
+            "58948c8e86f77409493f7266",
+            "60339954d62c9b14ed777c06",
+            "5926bb2186f7744b1c6c6e60"]
+        },
+        "Scabbard": {
+            "Name": "Scabbard",
+            "Filter_Overwrite": false,
+            "Included_Filter": [""],
+            "Excluded_Filter": [""]
+        },
+        "FaceCover": {
+            "Name": "FaceCover",
+            "Filter_Overwrite": false,
+            "Included_Filter": [""],
+            "Excluded_Filter": [""]
+        },
+        "Headwear": {
+            "Name": "Headwear",
+            "Filter_Overwrite": false,
+            "Included_Filter": [""],
+            "Excluded_Filter": [""]
+        },
+        "Earpiece": {
+            "Name": "Earpiece",
+            "Filter_Overwrite": false,
+            "Included_Filter": [""],
+            "Excluded_Filter": [""]
+        },
+        "Eyewear": {
+            "Name": "Eyewear",
+            "Filter_Overwrite": false,
+            "Included_Filter": [""],
+            "Excluded_Filter": [""]
+        },
+        "TacticalVest": {
+            "Name": "TacticalVest",
+            "Filter_Overwrite": false,
+            "Included_Filter": [""],
+            "Excluded_Filter": [""]
+        },
+        "ArmorVest": {
+            "Name": "ArmorVest",
+            "Filter_Overwrite": false,
+            "Included_Filter": [""],
+            "Excluded_Filter": [""]
+        },
+        "Backpack": {
+            "Name": "Backpack",
+            "Filter_Overwrite": false,
+            "Included_Filter": [""],
+            "Excluded_Filter": [""]
+        },
+        "SecuredContainer": {
+            "Name": "SecuredContainer",
+            "Filter_Overwrite": false,
+            "Included_Filter": [""],
+            "Excluded_Filter": [""]
+        },
+        "ArmBand": {
+            "Name": "ArmBand",
+            "Filter_Overwrite": false,
+            "Included_Filter": [""],
+            "Excluded_Filter": [""]
+        },
+        "SpecialSlot1": {
+            "Name": "SpecialSlot1",
+            "Filter_Overwrite": false,
+            "Included_Filter": [
+                "5448f39d4bdc2d0a728b4568",
+                "5448f3a64bdc2d60728b456a",
+                "5448f3ac4bdc2dce718b4569",
+                "5448f3a14bdc2d27728b4569",
+                "624c2e8614da335f1e034d8c"
+                ],
+            "Excluded_Filter": [
+                "590c657e86f77412b013051d"
+                ]
+        },
+        "SpecialSlot2": {
+            "Name": "SpecialSlot2",
+            "Filter_Overwrite": false,
+            "Included_Filter": [
+                "5448f39d4bdc2d0a728b4568",
+                "5448f3a64bdc2d60728b456a",
+                "5448f3ac4bdc2dce718b4569",
+                "5448f3a14bdc2d27728b4569",
+                "624c2e8614da335f1e034d8c"
+                ],
+            "Excluded_Filter": [
+                "590c657e86f77412b013051d"
+                ]
+        },
+        "SpecialSlot3": {
+            "Name": "SpecialSlot3",
+            "Filter_Overwrite": false,
+            "Included_Filter": [
+                "5448f39d4bdc2d0a728b4568",
+                "5448f3a64bdc2d60728b456a",
+                "5448f3ac4bdc2dce718b4569",
+                "5448f3a14bdc2d27728b4569",
+                "624c2e8614da335f1e034d8c"
+                ],
+            "Excluded_Filter": [
+                "590c657e86f77412b013051d"
+                ]
+        }
+    }
+}
